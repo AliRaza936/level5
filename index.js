@@ -5,10 +5,10 @@ let app = express()
 
 const PORT = process.env.PORT || 3000
 app.get('/health', (req, res) => {
-    return res.status(200).json({ message: 'all good!' })
+    return res.status(200).json({ message: 'everything well!' })
 })
 app.get('/', (req, res) => {
-    return res.status(200).json({ message: 'hello, al!' })
+    return res.status(200).json({ message: 'hello, ali!all good' })
 })
 app.listen(PORT, () => {
     console.log(`Server is running ${PORT}`)
